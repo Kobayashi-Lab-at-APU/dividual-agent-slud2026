@@ -1,0 +1,67 @@
+# 各人物の発話スタイルの好みの値(生成側の「好みの指定」で指示文にしたもの)
+user_a:
+  preferred_response_length: short
+  formality: neutral
+  directness: direct
+  technical_depth: high
+  example_preference: rarely
+  question_frequency: low
+  initiative: reactive
+  topic_recall_preference: minimal
+  criticism_tolerance: high
+  style_confidence: 0.8
+user_b:
+  preferred_response_length: long
+  formality: neutral
+  directness: indirect
+  technical_depth: medium
+  example_preference: often
+  question_frequency: high
+  initiative: balanced
+  topic_recall_preference: moderate
+  criticism_tolerance: medium
+  style_confidence: 0.8
+user_c:
+  preferred_response_length: medium
+  formality: casual
+  directness: direct
+  technical_depth: low
+  example_preference: sometimes
+  question_frequency: high
+  initiative: proactive
+  topic_recall_preference: frequent
+  criticism_tolerance: high
+  style_confidence: 0.8
+user_d:
+  preferred_response_length: short
+  formality: casual
+  directness: direct
+  technical_depth: medium
+  example_preference: sometimes
+  question_frequency: high
+  initiative: balanced
+  topic_recall_preference: moderate
+  criticism_tolerance: medium
+  style_confidence: 0.8
+user_e:
+  preferred_response_length: long
+  formality: casual
+  directness: indirect
+  technical_depth: low
+  example_preference: often
+  question_frequency: low
+  initiative: proactive
+  topic_recall_preference: moderate
+  criticism_tolerance: medium
+  style_confidence: 0.8
+user_f:
+  preferred_response_length: medium
+  formality: formal
+  directness: direct
+  technical_depth: high
+  example_preference: rarely
+  question_frequency: low
+  initiative: reactive
+  topic_recall_preference: moderate
+  criticism_tolerance: medium
+  style_confidence: 0.8

@@ -1,0 +1,722 @@
+{
+ "p2d_116b0f7bc35f__o0": {
+  "item": "p2d_116b0f7bc35f",
+  "script": "n14_tidying",
+  "order": 0,
+  "responses": {
+   "応答1": "user_d",
+   "応答2": "user_b",
+   "応答3": "user_a"
+  },
+  "cards": {
+   "人物A": "user_b",
+   "人物B": "user_d",
+   "人物C": "user_a"
+  },
+  "truth": {
+   "応答1": "人物B",
+   "応答2": "人物A",
+   "応答3": "人物C"
+  }
+ },
+ "p2d_116b0f7bc35f__o1": {
+  "item": "p2d_116b0f7bc35f",
+  "script": "n14_tidying",
+  "order": 1,
+  "responses": {
+   "応答1": "user_a",
+   "応答2": "user_d",
+   "応答3": "user_b"
+  },
+  "cards": {
+   "人物A": "user_b",
+   "人物B": "user_d",
+   "人物C": "user_a"
+  },
+  "truth": {
+   "応答1": "人物C",
+   "応答2": "人物B",
+   "応答3": "人物A"
+  }
+ },
+ "p2d_344375892738__o0": {
+  "item": "p2d_344375892738",
+  "script": "n15_museum",
+  "order": 0,
+  "responses": {
+   "応答1": "user_f",
+   "応答2": "user_b",
+   "応答3": "user_e"
+  },
+  "cards": {
+   "人物A": "user_e",
+   "人物B": "user_b",
+   "人物C": "user_f"
+  },
+  "truth": {
+   "応答1": "人物C",
+   "応答2": "人物B",
+   "応答3": "人物A"
+  }
+ },
+ "p2d_344375892738__o1": {
+  "item": "p2d_344375892738",
+  "script": "n15_museum",
+  "order": 1,
+  "responses": {
+   "応答1": "user_e",
+   "応答2": "user_f",
+   "応答3": "user_b"
+  },
+  "cards": {
+   "人物A": "user_e",
+   "人物B": "user_b",
+   "人物C": "user_f"
+  },
+  "truth": {
+   "応答1": "人物A",
+   "応答2": "人物C",
+   "応答3": "人物B"
+  }
+ },
+ "p2d_3aaa67678f13__o0": {
+  "item": "p2d_3aaa67678f13",
+  "script": "n07_spreadsheet",
+  "order": 0,
+  "responses": {
+   "応答1": "user_b",
+   "応答2": "user_f",
+   "応答3": "user_c"
+  },
+  "cards": {
+   "人物A": "user_c",
+   "人物B": "user_b",
+   "人物C": "user_f"
+  },
+  "truth": {
+   "応答1": "人物B",
+   "応答2": "人物C",
+   "応答3": "人物A"
+  }
+ },
+ "p2d_3aaa67678f13__o1": {
+  "item": "p2d_3aaa67678f13",
+  "script": "n07_spreadsheet",
+  "order": 1,
+  "responses": {
+   "応答1": "user_c",
+   "応答2": "user_b",
+   "応答3": "user_f"
+  },
+  "cards": {
+   "人物A": "user_c",
+   "人物B": "user_b",
+   "人物C": "user_f"
+  },
+  "truth": {
+   "応答1": "人物A",
+   "応答2": "人物B",
+   "応答3": "人物C"
+  }
+ },
+ "p2d_44aca950f987__o0": {
+  "item": "p2d_44aca950f987",
+  "script": "n13_password",
+  "order": 0,
+  "responses": {
+   "応答1": "user_f",
+   "応答2": "user_c",
+   "応答3": "user_d"
+  },
+  "cards": {
+   "人物A": "user_d",
+   "人物B": "user_c",
+   "人物C": "user_f"
+  },
+  "truth": {
+   "応答1": "人物C",
+   "応答2": "人物B",
+   "応答3": "人物A"
+  }
+ },
+ "p2d_44aca950f987__o1": {
+  "item": "p2d_44aca950f987",
+  "script": "n13_password",
+  "order": 1,
+  "responses": {
+   "応答1": "user_d",
+   "応答2": "user_f",
+   "応答3": "user_c"
+  },
+  "cards": {
+   "人物A": "user_d",
+   "人物B": "user_c",
+   "人物C": "user_f"
+  },
+  "truth": {
+   "応答1": "人物A",
+   "応答2": "人物C",
+   "応答3": "人物B"
+  }
+ },
+ "p2d_4833a6d59556__o0": {
+  "item": "p2d_4833a6d59556",
+  "script": "n01_room_hunting",
+  "order": 0,
+  "responses": {
+   "応答1": "user_b",
+   "応答2": "user_f",
+   "応答3": "user_c"
+  },
+  "cards": {
+   "人物A": "user_f",
+   "人物B": "user_b",
+   "人物C": "user_c"
+  },
+  "truth": {
+   "応答1": "人物B",
+   "応答2": "人物A",
+   "応答3": "人物C"
+  }
+ },
+ "p2d_4833a6d59556__o1": {
+  "item": "p2d_4833a6d59556",
+  "script": "n01_room_hunting",
+  "order": 1,
+  "responses": {
+   "応答1": "user_c",
+   "応答2": "user_b",
+   "応答3": "user_f"
+  },
+  "cards": {
+   "人物A": "user_f",
+   "人物B": "user_b",
+   "人物C": "user_c"
+  },
+  "truth": {
+   "応答1": "人物C",
+   "応答2": "人物B",
+   "応答3": "人物A"
+  }
+ },
+ "p2d_6ed1c768ecbe__o0": {
+  "item": "p2d_6ed1c768ecbe",
+  "script": "n04_meeting_notes",
+  "order": 0,
+  "responses": {
+   "応答1": "user_d",
+   "応答2": "user_a",
+   "応答3": "user_c"
+  },
+  "cards": {
+   "人物A": "user_a",
+   "人物B": "user_d",
+   "人物C": "user_c"
+  },
+  "truth": {
+   "応答1": "人物B",
+   "応答2": "人物A",
+   "応答3": "人物C"
+  }
+ },
+ "p2d_6ed1c768ecbe__o1": {
+  "item": "p2d_6ed1c768ecbe",
+  "script": "n04_meeting_notes",
+  "order": 1,
+  "responses": {
+   "応答1": "user_c",
+   "応答2": "user_d",
+   "応答3": "user_a"
+  },
+  "cards": {
+   "人物A": "user_a",
+   "人物B": "user_d",
+   "人物C": "user_c"
+  },
+  "truth": {
+   "応答1": "人物C",
+   "応答2": "人物B",
+   "応答3": "人物A"
+  }
+ },
+ "p2d_7d4baea5a4a0__o0": {
+  "item": "p2d_7d4baea5a4a0",
+  "script": "n17_schedule",
+  "order": 0,
+  "responses": {
+   "応答1": "user_b",
+   "応答2": "user_d",
+   "応答3": "user_a"
+  },
+  "cards": {
+   "人物A": "user_b",
+   "人物B": "user_d",
+   "人物C": "user_a"
+  },
+  "truth": {
+   "応答1": "人物A",
+   "応答2": "人物B",
+   "応答3": "人物C"
+  }
+ },
+ "p2d_7d4baea5a4a0__o1": {
+  "item": "p2d_7d4baea5a4a0",
+  "script": "n17_schedule",
+  "order": 1,
+  "responses": {
+   "応答1": "user_a",
+   "応答2": "user_b",
+   "応答3": "user_d"
+  },
+  "cards": {
+   "人物A": "user_b",
+   "人物B": "user_d",
+   "人物C": "user_a"
+  },
+  "truth": {
+   "応答1": "人物C",
+   "応答2": "人物A",
+   "応答3": "人物B"
+  }
+ },
+ "p2d_8b3ffa2910d5__o0": {
+  "item": "p2d_8b3ffa2910d5",
+  "script": "n05_request_email",
+  "order": 0,
+  "responses": {
+   "応答1": "user_f",
+   "応答2": "user_c",
+   "応答3": "user_e"
+  },
+  "cards": {
+   "人物A": "user_c",
+   "人物B": "user_f",
+   "人物C": "user_e"
+  },
+  "truth": {
+   "応答1": "人物B",
+   "応答2": "人物A",
+   "応答3": "人物C"
+  }
+ },
+ "p2d_8b3ffa2910d5__o1": {
+  "item": "p2d_8b3ffa2910d5",
+  "script": "n05_request_email",
+  "order": 1,
+  "responses": {
+   "応答1": "user_e",
+   "応答2": "user_f",
+   "応答3": "user_c"
+  },
+  "cards": {
+   "人物A": "user_c",
+   "人物B": "user_f",
+   "人物C": "user_e"
+  },
+  "truth": {
+   "応答1": "人物C",
+   "応答2": "人物B",
+   "応答3": "人物A"
+  }
+ },
+ "p2d_999fbbc447e6__o0": {
+  "item": "p2d_999fbbc447e6",
+  "script": "n11_summarizing",
+  "order": 0,
+  "responses": {
+   "応答1": "user_d",
+   "応答2": "user_b",
+   "応答3": "user_e"
+  },
+  "cards": {
+   "人物A": "user_b",
+   "人物B": "user_e",
+   "人物C": "user_d"
+  },
+  "truth": {
+   "応答1": "人物C",
+   "応答2": "人物A",
+   "応答3": "人物B"
+  }
+ },
+ "p2d_999fbbc447e6__o1": {
+  "item": "p2d_999fbbc447e6",
+  "script": "n11_summarizing",
+  "order": 1,
+  "responses": {
+   "応答1": "user_e",
+   "応答2": "user_d",
+   "応答3": "user_b"
+  },
+  "cards": {
+   "人物A": "user_b",
+   "人物B": "user_e",
+   "人物C": "user_d"
+  },
+  "truth": {
+   "応答1": "人物B",
+   "応答2": "人物C",
+   "応答3": "人物A"
+  }
+ },
+ "p2d_99aa89393d86__o0": {
+  "item": "p2d_99aa89393d86",
+  "script": "n02_fridge",
+  "order": 0,
+  "responses": {
+   "応答1": "user_a",
+   "応答2": "user_e",
+   "応答3": "user_d"
+  },
+  "cards": {
+   "人物A": "user_d",
+   "人物B": "user_e",
+   "人物C": "user_a"
+  },
+  "truth": {
+   "応答1": "人物C",
+   "応答2": "人物B",
+   "応答3": "人物A"
+  }
+ },
+ "p2d_99aa89393d86__o1": {
+  "item": "p2d_99aa89393d86",
+  "script": "n02_fridge",
+  "order": 1,
+  "responses": {
+   "応答1": "user_d",
+   "応答2": "user_a",
+   "応答3": "user_e"
+  },
+  "cards": {
+   "人物A": "user_d",
+   "人物B": "user_e",
+   "人物C": "user_a"
+  },
+  "truth": {
+   "応答1": "人物A",
+   "応答2": "人物C",
+   "応答3": "人物B"
+  }
+ },
+ "p2d_9a26148499ba__o0": {
+  "item": "p2d_9a26148499ba",
+  "script": "n06_houseplant",
+  "order": 0,
+  "responses": {
+   "応答1": "user_d",
+   "応答2": "user_a",
+   "応答3": "user_e"
+  },
+  "cards": {
+   "人物A": "user_e",
+   "人物B": "user_d",
+   "人物C": "user_a"
+  },
+  "truth": {
+   "応答1": "人物B",
+   "応答2": "人物C",
+   "応答3": "人物A"
+  }
+ },
+ "p2d_9a26148499ba__o1": {
+  "item": "p2d_9a26148499ba",
+  "script": "n06_houseplant",
+  "order": 1,
+  "responses": {
+   "応答1": "user_e",
+   "応答2": "user_d",
+   "応答3": "user_a"
+  },
+  "cards": {
+   "人物A": "user_e",
+   "人物B": "user_d",
+   "人物C": "user_a"
+  },
+  "truth": {
+   "応答1": "人物A",
+   "応答2": "人物B",
+   "応答3": "人物C"
+  }
+ },
+ "p2d_a295ffc7466d__o0": {
+  "item": "p2d_a295ffc7466d",
+  "script": "n16_instrument",
+  "order": 0,
+  "responses": {
+   "応答1": "user_b",
+   "応答2": "user_a",
+   "応答3": "user_d"
+  },
+  "cards": {
+   "人物A": "user_d",
+   "人物B": "user_b",
+   "人物C": "user_a"
+  },
+  "truth": {
+   "応答1": "人物B",
+   "応答2": "人物C",
+   "応答3": "人物A"
+  }
+ },
+ "p2d_a295ffc7466d__o1": {
+  "item": "p2d_a295ffc7466d",
+  "script": "n16_instrument",
+  "order": 1,
+  "responses": {
+   "応答1": "user_d",
+   "応答2": "user_b",
+   "応答3": "user_a"
+  },
+  "cards": {
+   "人物A": "user_d",
+   "人物B": "user_b",
+   "人物C": "user_a"
+  },
+  "truth": {
+   "応答1": "人物A",
+   "応答2": "人物B",
+   "応答3": "人物C"
+  }
+ },
+ "p2d_ac07f8167d51__o0": {
+  "item": "p2d_ac07f8167d51",
+  "script": "n18_family_dinner",
+  "order": 0,
+  "responses": {
+   "応答1": "user_f",
+   "応答2": "user_b",
+   "応答3": "user_e"
+  },
+  "cards": {
+   "人物A": "user_f",
+   "人物B": "user_b",
+   "人物C": "user_e"
+  },
+  "truth": {
+   "応答1": "人物A",
+   "応答2": "人物B",
+   "応答3": "人物C"
+  }
+ },
+ "p2d_ac07f8167d51__o1": {
+  "item": "p2d_ac07f8167d51",
+  "script": "n18_family_dinner",
+  "order": 1,
+  "responses": {
+   "応答1": "user_e",
+   "応答2": "user_f",
+   "応答3": "user_b"
+  },
+  "cards": {
+   "人物A": "user_f",
+   "人物B": "user_b",
+   "人物C": "user_e"
+  },
+  "truth": {
+   "応答1": "人物C",
+   "応答2": "人物A",
+   "応答3": "人物B"
+  }
+ },
+ "p2d_afc75e1d4e2b__o0": {
+  "item": "p2d_afc75e1d4e2b",
+  "script": "n10_online_course",
+  "order": 0,
+  "responses": {
+   "応答1": "user_e",
+   "応答2": "user_f",
+   "応答3": "user_c"
+  },
+  "cards": {
+   "人物A": "user_c",
+   "人物B": "user_f",
+   "人物C": "user_e"
+  },
+  "truth": {
+   "応答1": "人物C",
+   "応答2": "人物B",
+   "応答3": "人物A"
+  }
+ },
+ "p2d_afc75e1d4e2b__o1": {
+  "item": "p2d_afc75e1d4e2b",
+  "script": "n10_online_course",
+  "order": 1,
+  "responses": {
+   "応答1": "user_c",
+   "応答2": "user_e",
+   "応答3": "user_f"
+  },
+  "cards": {
+   "人物A": "user_c",
+   "人物B": "user_f",
+   "人物C": "user_e"
+  },
+  "truth": {
+   "応答1": "人物A",
+   "応答2": "人物C",
+   "応答3": "人物B"
+  }
+ },
+ "p2d_c62d317533dd__o0": {
+  "item": "p2d_c62d317533dd",
+  "script": "n08_volunteer",
+  "order": 0,
+  "responses": {
+   "応答1": "user_f",
+   "応答2": "user_e",
+   "応答3": "user_c"
+  },
+  "cards": {
+   "人物A": "user_f",
+   "人物B": "user_c",
+   "人物C": "user_e"
+  },
+  "truth": {
+   "応答1": "人物A",
+   "応答2": "人物C",
+   "応答3": "人物B"
+  }
+ },
+ "p2d_c62d317533dd__o1": {
+  "item": "p2d_c62d317533dd",
+  "script": "n08_volunteer",
+  "order": 1,
+  "responses": {
+   "応答1": "user_c",
+   "応答2": "user_f",
+   "応答3": "user_e"
+  },
+  "cards": {
+   "人物A": "user_f",
+   "人物B": "user_c",
+   "人物C": "user_e"
+  },
+  "truth": {
+   "応答1": "人物B",
+   "応答2": "人物A",
+   "応答3": "人物C"
+  }
+ },
+ "p2d_df2002a59021__o0": {
+  "item": "p2d_df2002a59021",
+  "script": "n12_task_sharing",
+  "order": 0,
+  "responses": {
+   "応答1": "user_f",
+   "応答2": "user_c",
+   "応答3": "user_a"
+  },
+  "cards": {
+   "人物A": "user_f",
+   "人物B": "user_c",
+   "人物C": "user_a"
+  },
+  "truth": {
+   "応答1": "人物A",
+   "応答2": "人物B",
+   "応答3": "人物C"
+  }
+ },
+ "p2d_df2002a59021__o1": {
+  "item": "p2d_df2002a59021",
+  "script": "n12_task_sharing",
+  "order": 1,
+  "responses": {
+   "応答1": "user_a",
+   "応答2": "user_f",
+   "応答3": "user_c"
+  },
+  "cards": {
+   "人物A": "user_f",
+   "人物B": "user_c",
+   "人物C": "user_a"
+  },
+  "truth": {
+   "応答1": "人物C",
+   "応答2": "人物A",
+   "応答3": "人物B"
+  }
+ },
+ "p2d_f10115be7d67__o0": {
+  "item": "p2d_f10115be7d67",
+  "script": "n09_phone_photos",
+  "order": 0,
+  "responses": {
+   "応答1": "user_a",
+   "応答2": "user_b",
+   "応答3": "user_e"
+  },
+  "cards": {
+   "人物A": "user_b",
+   "人物B": "user_e",
+   "人物C": "user_a"
+  },
+  "truth": {
+   "応答1": "人物C",
+   "応答2": "人物A",
+   "応答3": "人物B"
+  }
+ },
+ "p2d_f10115be7d67__o1": {
+  "item": "p2d_f10115be7d67",
+  "script": "n09_phone_photos",
+  "order": 1,
+  "responses": {
+   "応答1": "user_e",
+   "応答2": "user_a",
+   "応答3": "user_b"
+  },
+  "cards": {
+   "人物A": "user_b",
+   "人物B": "user_e",
+   "人物C": "user_a"
+  },
+  "truth": {
+   "応答1": "人物B",
+   "応答2": "人物C",
+   "応答3": "人物A"
+  }
+ },
+ "p2d_f8bfaedcff7c__o0": {
+  "item": "p2d_f8bfaedcff7c",
+  "script": "n03_birthday_gift",
+  "order": 0,
+  "responses": {
+   "応答1": "user_d",
+   "応答2": "user_c",
+   "応答3": "user_a"
+  },
+  "cards": {
+   "人物A": "user_c",
+   "人物B": "user_a",
+   "人物C": "user_d"
+  },
+  "truth": {
+   "応答1": "人物C",
+   "応答2": "人物A",
+   "応答3": "人物B"
+  }
+ },
+ "p2d_f8bfaedcff7c__o1": {
+  "item": "p2d_f8bfaedcff7c",
+  "script": "n03_birthday_gift",
+  "order": 1,
+  "responses": {
+   "応答1": "user_a",
+   "応答2": "user_d",
+   "応答3": "user_c"
+  },
+  "cards": {
+   "人物A": "user_c",
+   "人物B": "user_a",
+   "人物C": "user_d"
+  },
+  "truth": {
+   "応答1": "人物B",
+   "応答2": "人物C",
+   "応答3": "人物A"
+  }
+ }
+}
