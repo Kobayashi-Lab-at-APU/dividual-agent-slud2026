@@ -22,7 +22,7 @@
 
 - 生成側(分人に与える相手の情報): 好みの指定 / 人柄のみ / 情報なし
 - 評価側(LLM 評価者に示す説明文): 好みの説明文(`preference_description`)/ 人柄と知識量の説明文(`personality_knowledge`)/ その第1文のみ(`first_sentence`)
-- `judge/matching/` には，原稿の表4の5セルに当たる組と，原稿では結果を扱っていない「好みの指定 × 第1文のみ」の組(`preference_specified__first_sentence`．原稿 4.3節)を置いた
+- `judge/matching/` には，原稿の表4の5セルに当たる組と，原稿では扱っていない「好みの指定 × 第1文のみ」の組(`preference_specified__first_sentence`)を置いた
 
 ### マッチング課題の質問
 
