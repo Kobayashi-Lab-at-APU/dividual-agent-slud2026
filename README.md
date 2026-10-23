@@ -22,12 +22,13 @@
 
 - 生成側(分人に与える相手の情報): 好みの指定 / 人柄のみ / 情報なし
 - 評価側(LLM 評価者に示す説明文): 好みの説明文(`preference_description`)/ 人柄と知識量の説明文(`personality_knowledge`)/ その第1文のみ(`first_sentence`)
-- 原稿の表4の6セルに当たる組を `judge/matching/` に置いた
+- `judge/matching/` には，原稿の表4の5セルに当たる組と，原稿では結果を扱っていない「好みの指定 × 第1文のみ」の組(`preference_specified__first_sentence`．原稿 4.3節)を置いた
 
 ### マッチング課題の質問
 
 - 1ファイルが LLM 評価者への1回の入力である．指示文・3名の説明文(記号 A〜C)・3名に向けた応答(番号1〜3．各3ターン)からなる
 - `__o0` と `__o1` は応答の提示順だけを入れ替えたもの．Claude には `__o0` だけを，Gemma 4 31B-it には両方を判定させた
+- Gemma 4 31B-it の判定の設定: `google/gemma-4-31B-it`(revision `842da37`)，bf16，思考モードなし，貪欲デコード，最大生成長 2048 トークン
 - `key.json` は，各質問の応答番号・説明文の記号がどの人物に当たるか(`responses`・`cards`)と，正解の対応(`truth`)
 - 質問の中の応答は Llama-3.1-Swallow-8B-Instruct-v0.5 が生成したものである(乱数シード1つ，最大生成長768トークン)
 
