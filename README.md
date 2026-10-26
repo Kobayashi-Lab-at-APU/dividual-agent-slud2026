@@ -12,18 +12,18 @@
 | `prompts/generation/<生成側の条件>/user_a〜f.txt` | 応答の生成に用いたシステムプロンプト(人物 a〜f)．条件は `preference_specified`(嗜好の指定)・`personality_only`(人柄のみ)・`no_information`(情報なし) |
 | `prompts/templates/` | 上のシステムプロンプトのテンプレート(共通ベースプロンプトと個人向け分人のプロンプト) |
 | `personas/preference_descriptions.yaml` | 嗜好の説明文(発話スタイルの嗜好を明示した説明文) |
-| `personas/personality_knowledge_descriptions.yaml` | 人柄の説明文(嗜好を直接書かずに人柄を3文で書いた説明文．6名中5名はその人物の知識の多寡も含む)と，その第1文 |
+| `personas/personality_descriptions.yaml` | 人柄の説明文(嗜好を直接書かずに人柄を3文で書いた説明文．6名中5名はその人物の知識の多寡も含む)と，その第1文 |
 | `personas/preferences.yaml` | 各人物の発話スタイルの嗜好の値 |
-| `scenarios/scenarios.yaml` | 台本18本の相手の発話(各3ターン．全人物で共通) |
+| `scenarios/scenarios.yaml` | 台本18本の相手の発話(`partner_turns`．各3ターン．全人物で共通) |
 | `judge/matching/<生成側>__<評価側>/` | 評価用 LLM に渡したマッチング課題の質問(1台本×3名の応答と3名の説明文)と正解 `key.json` |
 | `judge/descriptions/` | 2種の説明文どうしの対応づけと，人柄の説明文から嗜好を推定させた質問 |
 
-- フォルダ名・ファイル名の `personality_knowledge` は人柄の説明文を，`preference` は嗜好を指す
+- `personas/` の説明文の本文と `judge/` の質問は実際に用いたものであり，原稿より前の言い方(「話し方の好み」など)を含む
 
 ### 生成側と評価側の条件
 
 - 生成側(分人に与える相手の情報): 嗜好の指定 / 人柄のみ / 情報なし
-- 評価側(評価用 LLM に示す説明文): 嗜好の説明文(`preference_description`)/ 人柄の説明文(`personality_knowledge`)/ その第1文のみ(`first_sentence`)
+- 評価側(評価用 LLM に示す説明文): 嗜好の説明文(`preference_description`)/ 人柄の説明文(`personality_description`)/ その第1文のみ(`first_sentence`)
 - `judge/matching/` には，原稿の表4の5セルに当たる組と，原稿では扱っていない「嗜好の指定 × 第1文のみ」の組(`preference_specified__first_sentence`)を置いた
 - 原稿で扱っていない条件: 上のほかに，生成側では人柄の説明文に発話スタイルの設定項目の一覧(応答の長さ・丁寧さ・質問を返す頻度など)を加えた条件と，さらに相手との関係を表す一文を加えた条件を，評価側では人柄の説明文の第1文だけを示す条件を評価した．正答率(Claude / Gemma)は，前の2条件を人柄の説明文で判定して 0.796 / 0.843 と 0.963 / 0.833，第1文のみ(嗜好の指定で生成した応答)は 0.926 / 0.815 であった．関係の一文は丁寧さの嗜好に応じて選んだため丁寧さの手がかりを含み，第1文に含まれる設定項目は人物により異なるため，原稿では扱っていない．生成側の2条件のプロンプトと質問はこのリポジトリに含めていない
 

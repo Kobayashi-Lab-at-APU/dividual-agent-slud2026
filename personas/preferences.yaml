@@ -1,4 +1,4 @@
-# 各人物の発話スタイルの好みの値(生成側の「好みの指定」で指示文にしたもの)
+# 各人物の発話スタイルの嗜好の値(生成側の「嗜好の指定」で指示文にしたもの)
 user_a:
   preferred_response_length: short
   formality: neutral
